@@ -6,6 +6,7 @@ Scenario: Drupal frontpage works
   And I should see "Username"
   And I should see "Welcome to my website!"
 
+@api
 Scenario:
   Given I am logged in as a user with the "administrator" role
   And I click "Add content"
