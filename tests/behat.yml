@@ -13,4 +13,5 @@ default:
       selenium2: ~
       base_url: http://mysite.com
     Drupal\DrupalExtension:
+      api_driver: 'drush'
       blackbox: ~
